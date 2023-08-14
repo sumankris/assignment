@@ -1,0 +1,69 @@
+.artistMain {
+  padding: 50px 0px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.artistMain > div:last-child {
+  width: 30%;
+}
+
+
+
+.artistMain > div:last-child > h3 {
+  color: wheat;
+  font-size: 22px;
+}
+.artistMain > div:last-child > button {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 200px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,21,121,1) 48%);
+}
+.artistMain > div:last-child > p {
+  color: wheat;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.imageSection {
+  display: flex;
+  margin-left: 50px;
+}
+
+.imageSection > h1 {
+  position: absolute;
+  left: 320px;
+  color: rgb(255, 255, 255);
+}
+.imageSection > div:last-child {
+  position: relative;
+  right: 40px;
+  margin-top: 80px;
+}
+
+.imageSection > div > img {
+  width: 100%;
+  border-radius: 30px;
+  /* height:; */
+}
+@media (max-width:600px){
+  .artistMain{
+    flex-direction: column;
+
+  }
+  .artistMain > div:last-child {
+    width: 80%;
+  }
+  .imageSection > h1 {
+    position:static;
+    left: 320px;
+    color: rgb(255, 255, 255);
+  }
+  
+}

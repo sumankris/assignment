@@ -1,0 +1,25 @@
+.countermain{
+    padding: 50px 0px;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.countermain>div{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.countermain>div>div:first-child{
+    background-color: rgba(171, 255, 36, 0.849);
+    padding: 15px;
+    border-radius: 13px;
+    color: rgb(252, 0, 0);
+    font-size: 20px;
+}
+
+.countermain>div>div:last-child{
+    color: white;
+}

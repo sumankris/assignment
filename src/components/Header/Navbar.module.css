@@ -1,0 +1,60 @@
+.navBarmain{
+    display: grid;
+    grid-template-columns: 30% 40% 30% ;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   text-align: center;
+   padding-top: 30px;
+   
+
+}
+
+.menuList>ul{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+}
+@media (max-width:600px){
+    .navBarmain{
+        display: grid;
+        grid-template-columns: 100% ;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       text-align: center;
+       padding-top: 30px;
+       
+    
+    }
+    .menuList>ul{
+        flex-direction: column;
+    }
+}
+.menuList>ul>li{
+    padding: 9px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.menuList>ul>li:hover{
+    background-color: black;
+
+
+}
+.signinbuttons>button{
+    max-width: 100px;
+    width: 90px;
+    font-size: 16px;
+    border:solid 1px white;
+    background-color: transparent;
+    padding: 8px;
+    color: white;    
+    margin-left: 10px;
+    border-radius: 60px;
+
+}
+.signinbuttons>button:hover{
+    background-color: black;
+}
